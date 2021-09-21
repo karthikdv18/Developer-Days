@@ -1,0 +1,27 @@
+#title{
+    text-align:center;
+    background-color: orange;
+  }
+  #description{
+    text-align:center;
+    font-size:50px;
+  }
+  input:hover{
+     background:orange;
+    cursor:pointer;
+  }
+  div{
+    text-align:center;
+    font-size:25px;
+  }
+  
+   body {
+      background-color: grey;
+      color: #505050;
+      font-size: 25px;
+      font-family: cursive;
+  }
+ #sub{
+     align-items: center;
+ }
+  
