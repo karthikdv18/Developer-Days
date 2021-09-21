@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<header>
+    <h1 id='title' >Survey Form </h1>
+    <p id='description'> let us know about you </p>
+    </header>
+    <body>
+      <form id='survey-form'>
+            <div>
+                <label for="name" id="name-label">Name:</label><br>
+                <input  type="text" name="name" id="name" required placeholder="Your Full Name">
+            </div>
+            <div>
+                <label for="email" id="email-label">Email:</label><br>
+                <input type="email" name="email" id="email" required placeholder="Your Email ID">
+            </div>
+            <div>
+          
+                <label for="number" id="number-label">Age:</label><br>
+                <input type="number" name="age" id="number" max="40" min="18" placeholder="Your Age">
+            </div>
+    
+        
+        <div>
+               <p> male <input type="radio" name="gender" id="" value="male" >
+                female <input type="radio" name="gender" id="" value="female">
+            </p>
+        </div>
+       <div>
+         <p>
+                Full time programmer <input type="checkbox"  id="" value="full" >
+                Freelancer<input type="checkbox"  id="" 
+                        value="free" >
+            </p>
+        </div>
+        <div>
+        <label for="dropdown">which suits you</label>
+        <select id="dropdown">
+          <option value="student">web dev</option>
+          <option value="android dev">android dev</option>
+          <option value="student">
+            student</option>
+        </select>
+        </div>
+        <div>
+          <p>Comments <textarea name="" id="" cols="36" rows="2"></textarea></p>
+        </div>
+        <div >
+        <input type="submit" class="btn btn-primary" id="sub">
+        </div>
+      </form>
+    </body>
+</html>
